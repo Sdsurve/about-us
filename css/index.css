@@ -6,6 +6,10 @@ body {
 
 
 }
+.bann{
+    height: 90vh;
+    width: 1900px;
+}
 
 .main-section {
     margin-left: 0;
@@ -50,6 +54,9 @@ body {
     margin-top: 50px;
 
 }
+.content{
+    margin-top: 150px;
+}
 
 .img-text{
     display: flex;
@@ -75,8 +82,8 @@ body {
 .text-2{
     position: absolute;
     top: 40%;
-    right: 4%;
-    font-weight: 600;
+    right: 12%;
+    font-weight: 600px;
     font-size: 50px;
 }
 
@@ -161,6 +168,7 @@ body {
 
 .boxes span {
     font-size: 30px;
+    color: black;
     font-family: 'Montserrat', sans-serif;
     font-weight: 900;
 
@@ -175,13 +183,16 @@ body {
     width: 130px;
     font-family: 'Montserrat', sans-serif;
     border-radius: 20px;
+    color: black;
     border: solid 3px rgb(0, 0, 0);
-    background-color: rgb(255, 0, 0);
+    background-color: rgb(255, 255, 255);
     font-size: 20px;
     font-weight: bolder;
 }
 
 .Book-btn:hover {
+    background-color: gold;
+    color: black;
     transform: scale(0.90);
     transition: 0.5s;
 }
@@ -212,7 +223,7 @@ body {
 
 }
 
-.Book-btn:hover {
+/* .Book-btn:hover {
     transform: scale(0.9);
     transition: 0.5s;
 }
@@ -221,7 +232,7 @@ body {
     font-size: 20px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 900;
-}
+} */
 
 
 .desc {
@@ -236,7 +247,9 @@ body {
     cursor: pointer;
     height: 250px;
     width: 400px;
-    background-color: gold;
+    background-color: white;
+    border: 2px solid black;
+    padding-top: 10px;
     border-radius: 10px;
     margin: -80px 20px;
     position: relative;
@@ -249,7 +262,7 @@ body {
         margin-bottom: 5px;
         height: 200px;
         width: 120px;
-        background-color: gold;
+        background-color: white;
         border-radius: 10px;
         margin: -50px auto;
         font-size: 10px;
@@ -290,8 +303,9 @@ body {
 
 .button {
     cursor: pointer;
-    background-color: red;
+    background-color: black;
     border-radius: 30px;
+    border: 2px solid white;
     font-family: 'Montserrat', sans-serif;
     color: white;
     height: 50px;
@@ -304,13 +318,19 @@ body {
 }
 
 .button:hover {
+    background-color: gold;
+   color: black;
     transform: scale(0.9);
     transition: 0.5s;
 }
 
 a {
     text-decoration: none;
-    color: white
+    color: white;
+}
+a:hover{
+    text-decoration: none;
+    color: black;
 }
 
 
